@@ -55,7 +55,9 @@ export default function Counter() {
 
   return (
     <>
-      {isSaving ? <Loader /> : null}
+      <div style={{ visibility: isSaving ? "visible" : "hidden" }}>
+        <Loader />
+      </div>
       <ModifyCounter counter={counter} updateCounter={updateCounter} />
       <DisplayCounter counter={counter} />
     </>

@@ -15,11 +15,13 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-bottom: 1rem;
 }
 
 .counter-modifier {
   display: flex;
   justify-content: center;
+  margin-bottom: 1rem;
 }
 
 .btn {
